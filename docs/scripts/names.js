@@ -18,7 +18,7 @@ var br = "<br>";
 var msg = "";
 
 for (let i = 0; i < items.length; i++) {
-    msg = msg + items[i] + items[i] + items[i] + br 
+    msg = msg + items[i] + items[i] + items[i] + items[i] + items[i] + br 
 }
 
 for (let i = 0; i < 6; i++) {
