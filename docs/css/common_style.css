@@ -110,7 +110,8 @@ body {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: rgba(250, 251, 250);
+  /* color: rgba(250, 251, 250); */
+  color: #000000;
 }
 span {
   display: inline-block;
