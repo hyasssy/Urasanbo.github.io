@@ -52,9 +52,6 @@
   font-size: 2rem;
   line-height: 2.45rem;
   color: #c8ced1;
-  background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   top: 0%;
   text-align: center;
   white-space: nowrap;
