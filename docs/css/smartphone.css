@@ -142,15 +142,20 @@
   margin-top: -5px;
   margin-left: 5%;
 }
-
+.arrow00 img {
+  width: 100%;
+  height: auto;
+  max-width: 15vw;
+  min-width: 10vw;
+}
  
 }
 
-@media (orientation: landscape) and (max-width: 767px) {
+@media (orientation: landscape) and (max-width: 820px) {
 
 
   .top-header {
-    flex: 0.5;
+    flex: 1.5;
     flex-wrap: wrap;
   }
   .box {
