@@ -66,13 +66,14 @@ body {
   flex-wrap: nowrap;
   justify-content: left;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .box {
   width: 90%;
   position: relative;
   text-align: right;
   flex: 5;
+  flex-wrap: wrap;
 }
 .arrow-box {
   flex: 0.5;
@@ -80,6 +81,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
+  flex-wrap: nowrap;
 }
 #bg-container {
   position: fixed;
