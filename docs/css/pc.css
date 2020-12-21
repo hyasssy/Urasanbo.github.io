@@ -6,7 +6,7 @@
 .backStr {
   position: absolute;
   display: inline;
-  font-family: "HiraginoW4";
+  font-family: "HiraginoW4", sans-serif;
   font-size: 2rem;
   line-height: 2.45rem;
   color: #c8ced1;
@@ -17,7 +17,7 @@
 
 .title01 {
   color: #000000;
-  font-family: "HiraginoW4";
+  font-family: "HiraginoW4", sans-serif;
   font-size: 1.75rem;
   letter-spacing: 0.8px;
   margin-bottom: 13rem;
@@ -75,19 +75,19 @@
   line-height: 25px;
   margin-top: 0rem;
 }
-  #details00_detail {
-    position: relative;
-    z-index: 100;
-    color: #000000;
-    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-    letter-spacing: 0.85px;
-    font-size: 1.5rem;
-  }
-  #details00_detail span {
-    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-    font-weight: 600;
-    line-height: 2.25rem;
-  }
+#details00_detail {
+  position: relative;
+  z-index: 100;
+  color: #000000;
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  letter-spacing: 0.85px;
+  font-size: 1.5rem;
+}
+#details00_detail span {
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
 .details01 {
   color: #000000;
   font-family: a-otf-gothic-bbb-pr6n, sans-serif;
@@ -106,9 +106,10 @@
   margin-top: 1.25%;
   margin-left: 0.5%;
 }
-  .details01-s span {
-    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
-  }
+.details01-s span {
+  font-family: a-otf-futo-go-b101-pr6n, sans-serif;
+  font-weight: 500;
+}
 .margin-empty {
   margin-top: 35%;
 }
