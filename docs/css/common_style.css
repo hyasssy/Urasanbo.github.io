@@ -74,7 +74,6 @@ body {
   flex-wrap: nowrap;
   justify-content: left;
   align-items: center;
-  /* overflow: hidden; */
 }
 .box {
   width: 90%;
@@ -162,7 +161,6 @@ span {
   justify-content: center;
   align-items: center;
   margin-top: 38%;
-  /*background-color: blue;*/
 }
 .margin {
   margin-top: 15%;
