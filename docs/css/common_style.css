@@ -25,13 +25,13 @@
   src: url(../fonts/HelveticaNeue-Bold.ttf);
 }
 
-html {
-  visibility: hidden; /*FOUTを防ぐ*/
+/*html { FOUTを防ぐためだが、もっと強引な実装をしたため不要。
+  visibility: hidden;
 }
 html.wf-active,
 html.loading-delay {
-  visibility: visible; /*FOUTを防ぐ*/
-}
+  visibility: visible;
+}*/
 html a {
   color: #4498ff;
   transition: 0.3s;
