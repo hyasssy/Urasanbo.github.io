@@ -28,10 +28,14 @@
     text-align: center;
     white-space: nowrap;
   }
+  .title00 {
+    font-size: 6.5vw;
+    letter-spacing: 0.5px;
+  }
   .title01 {
     color: #000000;
     font-family: "HiraginoW4", sans-serif;
-    font-size: 1.75rem;
+    font-size: 4.3vw;
     letter-spacing: 0.8px;
     margin-bottom: 19vw;
   }

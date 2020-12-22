@@ -42,6 +42,9 @@
   letter-spacing: 0.8px;
   margin-bottom: 1rem;
 }
+.title00 span {
+  white-space: nowrap; /*改行させない*/
+}
 #title00_yokoku {
   text-align: left;
   font-size: 2.5rem;
