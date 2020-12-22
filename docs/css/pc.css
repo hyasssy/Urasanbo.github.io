@@ -1,3 +1,133 @@
+#bg-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#bg-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+}
+.page-top {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: center;
+}
+.box {
+  width: 90%;
+  height: auto;
+  position: relative;
+  text-align: right;
+  flex: 5;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+.title00 {
+  color: #000000;
+  font-family: "HiraginoW7", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 0.8px;
+  margin-bottom: 1rem;
+}
+#title00_yokoku {
+  text-align: left;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  /* color: rgba(250, 251, 250); */
+  color: #000000;
+  letter-spacing: 0.5px;
+}
+.title01 {
+  color: #000000;
+  font-family: "HiraginoW4", sans-serif;
+  font-size: 1.75rem;
+  letter-spacing: 0.8px;
+  margin-bottom: 13rem;
+}
+.title01 img {
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 100%;
+  margin-bottom: -13.5rem;
+}
+.countdown {
+  color: #000000;
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.8px;
+  text-align: center;
+  font-size: 5.5rem;
+  margin-top: -0.5%;
+  margin-left: -1.25%;
+  margin-bottom: 0%;
+}
+/*span {
+  display: inline-block;
+}*/
+.arrow-box {
+  flex: 0.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+.arrow00 {
+  color: #000000;
+  font-family: "HiraginoW4", sans-serif;
+  letter-spacing: 0.8px;
+}
+.arrow00 img {
+  display: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  min-width: 10px;
+}
+.arrow {
+  animation-name: arrow-animation;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+}
+@keyframes arrow-animation {
+  0% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, -15px);
+  }
+}
+.middle {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38%;
+}
+.margin {
+  margin-top: 15%;
+}
+
 .top-header {
   position: relative;
   flex: 2.2;
@@ -15,34 +145,6 @@
   white-space: nowrap;
 }
 
-.title01 {
-  color: #000000;
-  font-family: "HiraginoW4", sans-serif;
-  font-size: 1.75rem;
-  letter-spacing: 0.8px;
-  margin-bottom: 13rem;
-}
-.title01 img {
-  display: block;
-  margin: auto;
-  height: auto;
-  width: 100%;
-  max-width: 400px;
-  min-width: 250px;
-  margin-bottom: -13.5rem;
-}
-.countdown {
-  color: #000000;
-  font-family: futura-pt, sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  letter-spacing: 0.8px;
-  text-align: center;
-  font-size: 5.5rem;
-  margin-top: -0.5%;
-  margin-left: -1.25%;
-  margin-bottom: 0%;
-}
 .middle-box-01 {
   position: relative;
   width: 90%;
@@ -88,6 +190,13 @@
   font-weight: 600;
   line-height: 2.25rem;
 }
+.map {
+  position: relative;
+  z-index: 100;
+  width: calc(100% - 1.2rem);
+  margin-top: -10px;
+  margin-left: 0.6rem;
+}
 .details01 {
   color: #000000;
   font-family: a-otf-gothic-bbb-pr6n, sans-serif;
@@ -96,6 +205,16 @@
   letter-spacing: 0.85px;
   margin-top: 10%;
   margin-right: 10%;
+}
+.notes {
+  position: relative;
+  z-index: 100;
+  color: #000000;
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding-right: 0.6rem;
 }
 .details01-s {
   color: #000000;
@@ -113,15 +232,24 @@
 .margin-empty {
   margin-top: 35%;
 }
+.contact {
+  color: #000000;
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.95px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  line-height: 1.75rem;
+  text-align: center;
+}
+.contact span {
+  font-size: 1.5rem;
+  font-family: a-otf-futo-go-b101-pr6n, sans-serif;
+}
 .copyright {
   font-family: a-otf-gothic-bbb-pr6n, sans-serif;
   color: #000000;
   text-align: center;
   margin-top: 30rem;
-}
-.map {
-  position: relative;
-  z-index: 100;
-  margin-top: -10px;
-  margin-left: 10px;
 }

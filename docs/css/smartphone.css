@@ -108,6 +108,11 @@
     font-family: a-otf-futo-go-b101-pr6n, sans-serif;
     font-weight: 500;
   }
+  .map {
+    position: relative;
+    z-index: 100;
+    margin-top: -5px;
+  }
   .details01 {
     color: #000000;
     font-family: a-otf-gothic-bbb-pr6n, sans-serif;
@@ -116,6 +121,9 @@
     letter-spacing: 0.85px;
     margin-top: 10%;
     margin-right: 10%;
+  }
+  .notes {
+    font-size: 2vw;
   }
   .margin-empty {
     margin-top: 30vw;
@@ -131,13 +139,6 @@
   .contact span {
     font-size: 4vw;
   }
-  .map {
-    position: relative;
-    z-index: 100;
-    width: 85%;
-    margin-top: -5px;
-    margin-left: 5%;
-  }
   .arrow00 img {
     width: 100%;
     height: auto;
@@ -146,13 +147,14 @@
   }
 }
 
-@media (orientation: landscape) and (max-width: 820px) {
+/*@media (orientation: landscape) and (max-width: 820px) {
   .top-header {
     flex: 1.5;
     flex-wrap: wrap;
   }
   .box {
-    width: 40%;
+    width: 90%;
+    max-width: 400px;
   }
   .countdown {
     font-size: 4.8vw;
@@ -187,4 +189,4 @@
     max-width: 8vw;
     min-width: 6vw;
   }
-}
+}*/
