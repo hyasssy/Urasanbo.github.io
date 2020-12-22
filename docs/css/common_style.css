@@ -17,6 +17,16 @@
   src: url(../fonts/Hiragino_W1.ttc);
 }
 @font-face {
+  font-family: "Futura";
+  src: url(../fonts/Futura-Medium-01.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura";
+  src: url(../fonts/Futura-MediumItalic-02.ttf);
+  font-style: italic;
+}
+@font-face {
   font-family: "HiraginoW4";
   src: url(../fonts/Hiragino_W4.ttc);
 }
@@ -27,6 +37,22 @@
 @font-face {
   font-family: "HelveticaNeue";
   src: url(../fonts/HelveticaNeue-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(../fonts/HelveticaNeue-01.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(../fonts/HelveticaNeue-Light-08.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(../fonts/HelveticaNeue-Medium-11.ttf);
+  font-weight: 500;
 }
 
 /*html { FOUTを防ぐためだが、もっと強引な実装をしたため不要。

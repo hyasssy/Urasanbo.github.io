@@ -32,6 +32,10 @@
     font-size: 6.5vw;
     letter-spacing: 0.5px;
   }
+  #title00_yokoku {
+    font-size: 5vw;
+    margin-left: 1vw;
+  }
   .title01 {
     color: #000000;
     font-family: "HiraginoW4", sans-serif;
@@ -55,7 +59,6 @@
     font-style: italic;
     letter-spacing: 0.8px;
     text-align: center;
-    font-size: 5.5rem;
     font-size: 12vw;
     margin-top: 0;
     margin-left: -1.25%;
